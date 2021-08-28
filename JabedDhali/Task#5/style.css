@@ -1,0 +1,130 @@
+.font1{
+    font-family: "Raleway", sans-serif;
+}
+.font2{
+    font-family: 'Cairo', sans-serif;
+}
+
+.class1{
+    color: white;
+    background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+}
+
+.class2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #d2e0ed;
+}
+
+.class3{
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.servicearea .service a{
+    color: #8f969c !important;
+}
+.servicearea .service:hover a{
+    color: white !important;
+}
+.enterprisea{
+    color: #777777;
+}
+.enterprisea:hover{
+    color:white;
+}
+.border:hover{
+    border-radius: 10px;
+    color: white;
+    background-color: #3498db;
+    border-color: linear-gradient(180deg, #213b52 0%, #213b54 35%, #204564 100%);
+}
+.class4:hover{
+    text-shadow: yellow;
+}
+.class5{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.class5:hover{
+    border-radius: 0;
+    color:coral;
+    border:1px black solid;
+}
+.class6:hover{
+    color: #493c3e;
+}
+.btn-primary{
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+.btn-primary:hover{
+    background-color: black;
+    background-color: cornflowerblue;
+}
+.class7{
+    color: white;
+    background-color: #17a2b8;
+    border-radius: 50px;
+    border: 1px white solid;
+}
+.class7:hover{
+    color: white;
+    background-color: #e83e8c;
+    border: 1px #e83e8c solid;
+}
+.class8{
+    background-image: url("static/7.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.class8:before{
+    content:"";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.class9{
+    color: black;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px #17a2b8 solid;
+}
+.class9:hover{
+    color: white;
+    background-color: #17a2b8;
+}
+.class9 a{
+    color: black;
+}
+.class9 a:hover{
+    color: white;
+}
+.class10{
+    background-color: darkgray;
+}
+.class11{
+    color: white;
+    border: 1px white solid;
+    border-radius: none;
+}
+.class11:hover{
+    border-bottom: none;
+
+}
+.class12{
+    color: white;
+    float: left;
+}
+.class13{
+    background-color: black;
+}

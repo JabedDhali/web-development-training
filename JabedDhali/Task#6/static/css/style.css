@@ -1,0 +1,44 @@
+.font1{
+    font-family: "Raleway", sans-serif;
+}
+
+.font2{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
+
+
+/* Start SWAbasas */
+
+/* End SWAbasas */
+
+
+
+
+/* Start WServices */
+.wservices .image img{
+    border-radius: 1rem;
+}
+.wservices .text h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+h1::before, h1::after{
+    content: "";
+    margin: 0 15px 10px 15px;
+    width: 50px;
+    height: 2px;
+    background-color: #3498db;/*top right bottom left*/
+    display: inline-block;
+}
+.wservices .text .hlinks a:hover{
+    text-decoration: none !important;
+    color: #9eccf4 !important;
+}
+
+/* End WServices */
+
+
+
