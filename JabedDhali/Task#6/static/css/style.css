@@ -25,13 +25,16 @@
     font-weight: bold;
     font-size: 32px;
 }
-h1::before, h1::after{
+.wservices .text h1::before, h1::after{
     content: "";
-    margin: 0 15px 10px 15px;
+    margin: 0 15px 10px 15px;/*top right bottom left*/
     width: 50px;
     height: 2px;
-    background-color: #3498db;/*top right bottom left*/
+    background-color: #3498db;
     display: inline-block;
+}
+.wservices .text .hlinks a{
+    font-size: 17px;
 }
 .wservices .text .hlinks a:hover{
     text-decoration: none !important;
@@ -39,6 +42,66 @@ h1::before, h1::after{
 }
 
 /* End WServices */
+
+
+
+/* Start CMSSEO */
+.cmsseo .imtext img{
+    border-radius: 1rem;
+}
+.cmsseo .imtext h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+.cmsseo .imtext h1::before, h1::after{
+    content: "";
+    margin: 0 15px 10px 15px;/*top right bottom left*/
+    width: 50px;
+    height: 2px;
+    background-color: #3498db;
+    display: inline-block;
+}
+.cmsseo .imtext .hlinks a{
+    font-size: 17px;
+}
+.cmsseo .imtext .hlinks a:hover{
+    text-decoration: none !important;
+    color: #9eccf4 !important;
+}
+
+/* End CMSSEO */
+.mobileapps .image img{
+    border-radius: 1rem;
+}
+.mobileapps .text h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+.mobileapps .text h1::before, h1::after{
+    content: "";
+    margin: 0 15px 10px 15px;/*top right bottom left*/
+    width: 50px;
+    height: 2px;
+    background-color: #3498db;
+    display: inline-block;
+}
+.mobileapps .text .hlinks a{
+    font-size: 17px;
+}
+.mobileapps .text .hlinks a:hover{
+    text-decoration: none !important;
+    color: #9eccf4 !important;
+}
+
+/* Start MobileApps */
+
+/* End MobileApps */
+
+
+
+
+
+
 
 
 
